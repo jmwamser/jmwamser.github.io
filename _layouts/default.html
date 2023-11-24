@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" href="/favicon.ico"/>
   </head>
-  <body>
-    {{ content }}
+  <body class="min-h-screen flex flex-col justify-between bg-gray-100 dark:bg-gray-950 dark:text-white">
+    {%- include header.html -%}
+    <main class="flex-grow">
+      {{ content }}
+    </main>
+    {%- include footer.html -%}
   </body>
 </html>
