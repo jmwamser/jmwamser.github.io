@@ -1,8 +1,0 @@
-{%- if page_paths -%}
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-            <a href="{{ my_page.url | relative_url }}" class="hover:text-orange-400 dark:hover:text-orange-600">{{ my_page.title | escape }}</a>
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
