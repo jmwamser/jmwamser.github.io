@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <link rel="icon" href="/favicon.ico"/>
+    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}"/>
   </head>
   <body class="min-h-screen flex flex-col justify-between bg-gray-100 dark:bg-gray-950 dark:text-white">
     {%- include header.html -%}
-    <main class="flex-grow">
+    <main class="flex-grow pb-1 mt-16 antialiased">
       {{ content }}
     </main>
     {%- include footer.html -%}

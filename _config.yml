@@ -1,5 +1,5 @@
-url: ''
-baseurl: ''
+url: 'https://jmwamser.github.io'
+baseurl: 'jmwamser.github.io'
 #title: "Binary Bard: Navigating the Nexus of Nerdom"
 title: "Jordan's Tech Nerdom"
 profile_image: https://gravatar.com/avatar/c47502b47b66f286b7df9b811a0aceb5da9c3a45ba166eb35e000ec72d64445a?s=600
@@ -16,9 +16,21 @@ social:
   pinterest_username:
   rss:
 
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - about.md
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: [
+      "DEFAULT", "VALIDATE_UTF8", "SMART", "LIBERAL_HTML_TAG", "FOOTNOTES", "STRIKETHROUGH_DOUBLE_TILDE", "SOURCEPOS", "HARDBREAKS", "SAFE", "NOBREAKS", "GITHUB_PRE_LANG", "TABLE_PREFER_STYLE_ATTRIBUTES", "FULL_INFO_STRING"
+    ]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 plugins:
   - jekyll-postcss
+  - jekyll-feed
 
 postcss:
   cache: false
@@ -28,3 +40,5 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+  - README.md
+  - vendor/

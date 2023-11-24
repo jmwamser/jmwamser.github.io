@@ -1,9 +1,10 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
-*Welcome to My World: A Journey in Software and Beyond*
+*Welcome to **Binary Bard: Navigating the Nexus of Nerdom***
 
 Hello there! I'm Jordan Wamser, a Software Engineer with a deep passion for transforming ideas into digital realities. Since graduating in 2015 with an associate's degree in Information Technology, I've been immersed in the world of website development, always eager to bring new concepts to life.
 
@@ -29,6 +30,7 @@ I see this blog as a living testament to personal and professional growth. My ai
 In the long run, I envision this blog blossoming into a vibrant community and a comprehensive knowledge base. I'm excited about the prospect of using this platform to develop content for public speaking and to create in-depth tutorials on coding projects.
 
 ## Let's Connect!
-Your thoughts and feedback are what will make this journey truly enriching. Feel free to connect with me through the social media links on the site. Whether it's a suggestion, a topic you'd like me to cover, or even a friendly heads-up about a typo, I'm all ears.
+Your thoughts and feedback are what will make this journey truly enriching. Feel free to connect with me through the social media links found at the bottom of the site. Whether it's a suggestion, a topic you'd like me to cover, or even a friendly heads-up about a typo, I'm all ears.
 
 Here's to the start of an exciting adventure. Welcome aboard!
+
