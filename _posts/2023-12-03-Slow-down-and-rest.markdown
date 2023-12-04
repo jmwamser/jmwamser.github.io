@@ -2,6 +2,7 @@
 layout: post
 title:  "Slow Down and Rest"
 categories: journal
+author: Jordan Wamser
 published: true
 ---
 
